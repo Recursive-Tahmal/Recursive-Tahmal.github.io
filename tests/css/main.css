@@ -33,7 +33,7 @@ ul li {
     position: relative;
     list-style: none;
     width: 250px;
-    background: #6D2449;
+    background: #242424;
     /* List item background color */
     padding: 25px;
     z-index: var(--i);
@@ -41,7 +41,7 @@ ul li {
 }
 
 ul li:hover {
-    background: #E72965;
+    background: #4D4D4D;
     transform: translateX(-25px);
 
     transition: 0.5s;
@@ -50,12 +50,11 @@ ul li:hover {
 ul li:before {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: 0.3px;
     left: -40px;
     width: 40px;
     height: 100%;
-    background: #422441;
-    /* Skew before background color */
+    background: #222222;
     transform-origin: right;
     transform: skewY(45deg);
 
@@ -63,7 +62,7 @@ ul li:before {
 }
 
 ul li:hover::before {
-    background: #E72965;
+    background: #404040;
     /* Hover skew before background color */
 }
 
@@ -74,7 +73,7 @@ ul li::after {
     left: 0;
     width: 100%;
     height: 40px;
-    background: #422441;
+    background: #222222;
     /* Skew after background color */
     transform-origin: bottom;
     transform: skewX(45deg);
@@ -82,13 +81,13 @@ ul li::after {
 }
 
 ul li:hover::after {
-    background: #E72965;
+    background: #404040;
     /* Hover skew after background color */
 }
 
 ul li a {
     text-decoration: none;
-    color: #999;
+    color: #B3B3B3;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -96,7 +95,7 @@ ul li a {
 }
 
 ul li:hover a {
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .nav li:nth-child(1) {
@@ -117,14 +116,15 @@ ul li:hover a {
 
 /* on click */
 ul li:active {
-    background: #e26089;
+    background: #9e9e9e;
     transition: 0.5s;
 }
 
 ul li:nth-child(1)::after {
     content: 'Amin Yahya Selhabi';
-    color: #ccc;
+    color: #B3B3B3;
     font-size: 20px;
+    font-weight: bold;
 
     display: flex;
     justify-content: center;
