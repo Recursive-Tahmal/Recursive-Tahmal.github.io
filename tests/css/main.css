@@ -63,9 +63,13 @@ ul li:before {
     left: -40px;
     width: 40px;
     height: 100%;
-    background: #b18c2a;
+    background: #b18d2a;
     transform-origin: right;
     transform: skewY(45deg);
+}
+
+ul li:hover::before {
+    background: #355ea7;
 }
 
 ul li:after {
