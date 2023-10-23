@@ -33,7 +33,7 @@ ul li {
     position: relative;
     list-style: none;
     width: 250px;
-    background: #242424;
+    background: #464545;
     /* List item background color */
     padding: 25px;
     z-index: var(--i);
@@ -54,7 +54,8 @@ ul li:before {
     left: -40px;
     width: 40px;
     height: 100%;
-    background: #222222;
+    background: #242424;
+
     transform-origin: right;
     transform: skewY(45deg);
 
