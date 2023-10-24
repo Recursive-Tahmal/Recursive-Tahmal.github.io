@@ -30,6 +30,10 @@ body {
     opacity: 1;
 }
 
+.background.fog {
+    opacity: 0.5;
+}
+
 ul {
     position: relative;
     transform: skewY(-15deg);
