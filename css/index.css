@@ -91,7 +91,7 @@ ul li:hover a {
     --i: 1;
 }
 
-/* on click */
+/* hold click */
 ul li:active {
     background: #1e5bc7;
 }

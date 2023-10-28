@@ -1,29 +1,6 @@
-.project-img {
-    width: 15%;
-}
-
-
 h2 {
     font-size: 18px;
 }
-
-.expand {
-    position: relative;
-    font-size: 12px;
-    color: #e5e7e7;
-}
-
-.project-img:hover+.expand {
-    display: block;
-}
-
-.img-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-}
-
 
 nav span {
     left: 175px;
