@@ -9,7 +9,7 @@ body {
     background: #282828;
     margin: 0px;
     color: #e5e7e7;
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 40px;
 }
 
@@ -102,4 +102,26 @@ article {
     margin-right: 1px;
     top: 3px;
     position: relative;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1,
+    h2 {
+        color: #FFC72C;
+        font-size: 22px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .expand {
+        font-size: 0px;
+    }
 }
