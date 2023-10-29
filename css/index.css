@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
 }
 
 body {
@@ -12,16 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #464545;
-    /* Background color */
-}
-
-.background {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.25;
+    padding-bottom: 0px;
 }
 
 ul {
@@ -33,7 +20,7 @@ ul li {
     position: relative;
     list-style: none;
     width: 250px;
-    background: #464545;
+    background: #cda23a;
     /* List item background color */
     padding: 25px;
     z-index: var(--i);
@@ -41,54 +28,44 @@ ul li {
 }
 
 ul li:hover {
-    background: #4D4D4D;
+    background: #527aa3;
     transform: translateX(-25px);
+}
 
+ul li:before,
+ul li:after {
+    content: '';
+    position: absolute;
     transition: 0.5s;
 }
 
 ul li:before {
-    content: '';
-    position: absolute;
-    bottom: 0.3px;
+    bottom: 0;
     left: -40px;
     width: 40px;
     height: 100%;
-    background: #242424;
-
+    background: #b18d2a;
     transform-origin: right;
     transform: skewY(45deg);
-
-    transition: 0.5s;
 }
 
 ul li:hover::before {
-    background: #404040;
-    /* Hover skew before background color */
+    background: #355ea7;
 }
 
-ul li::after {
-    content: '';
-    position: absolute;
+ul li:after {
     top: -40px;
     left: 0;
     width: 100%;
     height: 40px;
-    background: #222222;
-    /* Skew after background color */
+    background: #e6b74b;
     transform-origin: bottom;
     transform: skewX(45deg);
-    transition: 0.5s;
-}
-
-ul li:hover::after {
-    background: #404040;
-    /* Hover skew after background color */
 }
 
 ul li a {
     text-decoration: none;
-    color: #B3B3B3;
+    color: #282828;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -115,20 +92,22 @@ ul li:hover a {
     --i: 1;
 }
 
-/* on click */
+/* hold click */
 ul li:active {
-    background: #9e9e9e;
-    transition: 0.5s;
+    background: #1e5bc7;
 }
 
 ul li:nth-child(1)::after {
     content: 'Amin Yahya Selhabi';
-    color: #B3B3B3;
+    color: #282828;
     font-size: 20px;
     font-weight: bold;
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+ul li:nth-child(1):hover::after {
+    background: #3e84e0;
+    color: #FFFFFF;
 }
