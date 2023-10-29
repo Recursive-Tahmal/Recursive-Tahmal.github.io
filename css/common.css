@@ -10,6 +10,7 @@ body {
     margin: 0px;
     color: #e5e7e7;
     font-size: 16px;
+    padding-bottom: 40px;
 }
 
 h1,
@@ -80,7 +81,7 @@ a {
 
 article {
     position: relative;
-    background: #2828287e;
+    background: #282828cc;
     margin: 10px 0;
     padding: 20px;
     border: 1px solid #e5e7e7;
