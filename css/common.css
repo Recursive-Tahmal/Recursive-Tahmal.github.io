@@ -30,9 +30,9 @@ a {
 }
 
 .background {
-    width: 100vw;
+    width: 200vw;
     /* Use viewport width */
-    height: 100vh;
+    height: 200vh;
     /* Use viewport height */
     position: fixed;
     background-size: cover;
