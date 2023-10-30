@@ -53,7 +53,7 @@ a {
 }
 
 .img {
-    width: 10%;
+    width: 25%;
 }
 
 .expand {
@@ -62,6 +62,11 @@ a {
     color: #e5e7e7;
     display: none;
 }
+
+.img.clicked {
+    width: 50%;
+}
+
 
 .img:hover+.expand {
     display: block;
@@ -124,10 +129,10 @@ article {
     }
 
     .img {
-        width: 100%;
+        width: 75%;
     }
 
-    .expand {
-        font-size: 0px;
+    .img.clicked {
+        width: 100%;
     }
 }
