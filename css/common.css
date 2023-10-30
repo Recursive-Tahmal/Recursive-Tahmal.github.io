@@ -132,10 +132,14 @@ article {
     }
 
     .img {
-        width: 75%;
+        width: 100%;
     }
 
     .img.clicked {
         width: 100%;
+    }
+
+    .expand {
+        display: none;
     }
 }
