@@ -7,8 +7,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     padding-bottom: 0px;
+}
+
+img {
+    @media screen and (max-width: 900px) and (max-width: 1500px) {
+        height: 100%;
+        width: auto;
+    }
 }
 
 ul {

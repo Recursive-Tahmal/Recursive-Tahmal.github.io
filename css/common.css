@@ -30,10 +30,7 @@ a {
 }
 
 .background {
-    width: 200vw;
-    /* Use viewport width */
-    height: 200vh;
-    /* Use viewport height */
+    width: 100%;
     position: fixed;
     background-size: cover;
     background-position: center;
@@ -46,7 +43,7 @@ a {
 }
 
 .background.fog {
-    opacity: 0.75;
+    opacity: 0.5;
     z-index: -2;
 }
 
