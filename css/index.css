@@ -98,8 +98,8 @@ ul li:active {
 }
 
 ul li:nth-child(1)::after {
-    content: 'Amin Yahya Selhabi';
-    color: #282828;
+    content: 'Amin Yahya Selhabid';
+    color: #303030;
     font-size: 20px;
     font-weight: bold;
     display: flex;

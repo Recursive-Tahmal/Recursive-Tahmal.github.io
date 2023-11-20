@@ -183,7 +183,7 @@ a {
 
     section {
         flex-direction: column;
-        height: auto;
+        height: max-content;
     }
 
     section:last-child {
