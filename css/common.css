@@ -85,8 +85,6 @@ a {
 .background {
     width: 100%;
     position: fixed;
-    background-size: cover;
-    background-position: center;
 }
 
 
@@ -153,7 +151,7 @@ a {
 
 @media screen and (max-width: 800px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
         height: 112vh;
     }
 
@@ -163,12 +161,12 @@ a {
 
     h2 {
         color: #FFC72C;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h3 {
         color: #FFC72C;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .img {
