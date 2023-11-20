@@ -179,12 +179,15 @@ a {
 
     .expand {
         font-size: 0px;
-
     }
 
     section {
         flex-direction: column;
-        height: 100vh;
+        height: auto;
+    }
+
+    section:last-child {
+        margin-bottom: 50px;
     }
 }
 
