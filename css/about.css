@@ -1,0 +1,29 @@
+.img {
+    width: 25%;
+}
+
+.img.clicked {
+    width: 50%;
+}
+
+.certificates img {
+    width: 50%;
+}
+
+.certificates img.clicked {
+    width: 80%;
+}
+
+@media screen and (max-width: 650px) {
+    .space {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .space {
+        width: 0;
+        background-color: green;
+        display: none;
+    }
+}

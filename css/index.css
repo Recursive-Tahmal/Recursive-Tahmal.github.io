@@ -11,12 +11,6 @@ body {
     padding-bottom: 0px;
 }
 
-img {
-    @media screen and (max-width: 900px) and (max-width: 1500px) {
-        height: 100%;
-        width: auto;
-    }
-}
 
 ul {
     position: relative;
@@ -28,7 +22,6 @@ ul li {
     list-style: none;
     width: 250px;
     background: #cda23a;
-    /* List item background color */
     padding: 25px;
     z-index: var(--i);
     transition: 0.5s;
