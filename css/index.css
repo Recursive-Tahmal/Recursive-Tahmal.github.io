@@ -8,7 +8,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 0px;
 }
 
 
@@ -98,7 +97,7 @@ ul li:active {
 }
 
 ul li:nth-child(1)::after {
-    content: 'Amin Yahya Selhabid';
+    content: 'Amin Yahya Selhabi';
     color: #303030;
     font-size: 20px;
     font-weight: bold;
